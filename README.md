@@ -53,8 +53,17 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
 
    ![Screenshot from 2022-09-06 21-49-36](https://user-images.githubusercontent.com/40049149/188666961-bbb4edea-fd8b-406f-b199-48590e416f32.png)
 
+5. Inisialisasi PM2
 
+       pm2 init simple
 
+   ![image](https://user-images.githubusercontent.com/40049149/188674233-0b61bdc1-eaf5-4968-bedc-c017c7a68f91.png)
+
+6. Edit file ecosystem.config.js
+
+       nano ecosystem.config.js
+
+   ![image](https://user-images.githubusercontent.com/40049149/188674064-ef002382-33d5-449a-9832-267737950ceb.png)
 
 
 
