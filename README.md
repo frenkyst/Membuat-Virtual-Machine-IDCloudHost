@@ -16,6 +16,9 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
 
    ![Screenshot from 2022-09-06 17-30-33](https://user-images.githubusercontent.com/40049149/188613437-b345c6dd-b55c-4bec-bd9a-8c85d4f95bd9.png)
 
+5. Setelah selesai, maka akan tampil seperti dibawah ini.
+
+   ![Screenshot from 2022-09-06 17-38-16](https://user-images.githubusercontent.com/40049149/188620762-a9438522-41da-4717-8328-2f24856f320f.png)
 
 
 
