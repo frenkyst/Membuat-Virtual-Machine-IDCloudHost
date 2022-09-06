@@ -29,9 +29,16 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
        
    ![image](https://user-images.githubusercontent.com/40049149/188661659-d49fe5d7-8c63-4068-a0d4-cfe4bda4e5af.png)
 
+2. Install NVM untuk menjalankan nodejs
+
        wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
+   ![image](https://user-images.githubusercontent.com/40049149/188662726-848e8706-d8ba-45b3-aebb-ed40417ee9cc.png)  
 
+       exec bash
+       nvm i 16
+       
+   ![image](https://user-images.githubusercontent.com/40049149/188664811-dab122f2-97b5-4254-a57d-ee05a1d604f1.png)
 
 
 
