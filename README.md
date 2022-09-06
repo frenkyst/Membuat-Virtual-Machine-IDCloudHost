@@ -40,14 +40,18 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
        
    ![image](https://user-images.githubusercontent.com/40049149/188664811-dab122f2-97b5-4254-a57d-ee05a1d604f1.png)
 
-3. Install NPM di directori aplikasi
+3. Install PM2
+
+       npm install -g pm2
+
+   ![image](https://user-images.githubusercontent.com/40049149/188670880-3c0149b9-6e3a-4ee7-b30f-48d8ebfdfe33.png)
+
+4. Install NPM di directori aplikasi
 
        cd dumbflix-frontend
        npm install
 
    ![Screenshot from 2022-09-06 21-49-36](https://user-images.githubusercontent.com/40049149/188666961-bbb4edea-fd8b-406f-b199-48590e416f32.png)
-
-
 
 
 
