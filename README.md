@@ -59,17 +59,21 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
 
    ![image](https://user-images.githubusercontent.com/40049149/188674233-0b61bdc1-eaf5-4968-bedc-c017c7a68f91.png)
 
-6. Edit file ecosystem.config.js
+6. Edit file ecosystem.config.js dan edit seperti gambar di bawah
 
        nano ecosystem.config.js
 
    ![image](https://user-images.githubusercontent.com/40049149/188674064-ef002382-33d5-449a-9832-267737950ceb.png)
 
+7. Sekarang coba kita jalankan
 
+       pm2 start ecosystem.config.js
 
+   ![image](https://user-images.githubusercontent.com/40049149/188675021-07516296-6a0a-41f3-b38b-17e4342807d6.png)
 
+8. Jika sudah sekarang coba buka web browser kalian setelah itu coba akses __ip kalian:3000__
 
-
+   ![image](https://user-images.githubusercontent.com/40049149/188679859-635423c0-74bf-4b7d-9dcd-de6baf588263.png)
 
 
 
