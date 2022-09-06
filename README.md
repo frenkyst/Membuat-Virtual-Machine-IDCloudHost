@@ -21,8 +21,15 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
    ![Screenshot from 2022-09-06 17-38-16](https://user-images.githubusercontent.com/40049149/188620762-a9438522-41da-4717-8328-2f24856f320f.png)
 
 
+### Deploy Aplikasi
 
+1. Ambil aplikasi yang ingin di deply dengan git clone
 
+       git clone https://github.com/dumbwaysdev/dumbflix-frontend
+       
+   ![image](https://user-images.githubusercontent.com/40049149/188661659-d49fe5d7-8c63-4068-a0d4-cfe4bda4e5af.png)
+
+       wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 
 
