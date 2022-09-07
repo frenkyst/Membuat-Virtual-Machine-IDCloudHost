@@ -21,7 +21,7 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
    ![Screenshot from 2022-09-06 17-38-16](https://user-images.githubusercontent.com/40049149/188620762-a9438522-41da-4717-8328-2f24856f320f.png)
 
 
-### Deploy Aplikasi
+## Deploy Aplikasi
 
 1. Ambil aplikasi yang ingin di deply dengan git clone
 
@@ -76,8 +76,37 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
    ![image](https://user-images.githubusercontent.com/40049149/188679859-635423c0-74bf-4b7d-9dcd-de6baf588263.png)
 
 
+## Reverse Proxy dan Setup Domain Cloudflare
 
+1. Install nginx di server
 
+       sudo apt install nginx
+
+   ![image](https://user-images.githubusercontent.com/40049149/188860497-cf3440e1-7568-4a2a-aaa5-c323fdc604af.png)
+
+2. Buat folder configurasi di directory nginx dan juga buat file configurasi juga
+
+       cd /etc/nginx/
+       sudo mkdir config
+       cd config
+       sudo nano reverse-proxy.conf
+
+   ![image](https://user-images.githubusercontent.com/40049149/188862055-a061e149-37bf-479a-af85-d7c3515c48db.png)
+
+3. Masukan configurasi berikut 
+
+         server { 
+            server_name menther.xyz; 
+    
+            location / { 
+                     proxy_pass http://192.168.1.107:3000;
+            }
+         }
+
+   .
+
+         INFO
+         pastikan port 3000 di ganti sesuai aplikasi yang digunakan dan sesuaikan server_name dan IP addres kalian.
 
 
 
