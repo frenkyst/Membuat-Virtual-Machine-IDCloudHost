@@ -116,6 +116,9 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
 
    ![image](https://user-images.githubusercontent.com/40049149/188868291-404818b6-3f99-45a9-9c3e-9405061dcbe4.png)
 
+6. Masukan Name dan IP kemudian jangan lupa Save
+
+   ![image](https://user-images.githubusercontent.com/40049149/188868720-436a1a0a-f8c9-45bc-8ed7-97592347e948.png)
 
 
 
