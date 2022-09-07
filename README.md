@@ -96,10 +96,10 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
 3. Masukan configurasi berikut 
 
          server { 
-            server_name menther.xyz; 
+            server_name frenky.studentdumbways.my.id; 
     
             location / { 
-                     proxy_pass http://192.168.1.107:3000;
+                     proxy_pass http://103.186.1.127:3000;
             }
          }
 
@@ -120,8 +120,14 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
 
    ![image](https://user-images.githubusercontent.com/40049149/188868720-436a1a0a-f8c9-45bc-8ed7-97592347e948.png)
 
+7. Lanjut setelah Step 3 kita simpan config yang kita bikin
 
+       cd ..
+       sudo nano nginx.conf
+       
+       jangan lupa Save
 
+   ![image](https://user-images.githubusercontent.com/40049149/188871765-7869e838-d5f8-442a-936d-f2c20524befe.png)
 
 
 
