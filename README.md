@@ -108,8 +108,13 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
          INFO
          pastikan port 3000 di ganti sesuai aplikasi yang digunakan dan sesuaikan server_name dan IP addres kalian.
 
+4. Untuk domainya dari cloudflare, kita login dulu ke cloudflare
 
+   ![image](https://user-images.githubusercontent.com/40049149/188867978-1d496ca4-b458-4e2f-a78c-da24998b791e.png)
 
+5. Pilih DNS pada side menu dan klik Add record
+
+   ![image](https://user-images.githubusercontent.com/40049149/188868291-404818b6-3f99-45a9-9c3e-9405061dcbe4.png)
 
 
 
