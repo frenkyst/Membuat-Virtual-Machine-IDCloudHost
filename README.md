@@ -129,7 +129,17 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
 
    ![image](https://user-images.githubusercontent.com/40049149/188871765-7869e838-d5f8-442a-936d-f2c20524befe.png)
 
+8. Cek konfigurasi apa sudah benar untuk make sure
 
+       sudo nginx -t
+
+   ![image](https://user-images.githubusercontent.com/40049149/188878551-5d2a6def-a2b3-42d6-9896-c59fa5a7558a.png)
+
+9. Lakukan reload nginx
+
+       sudo systemctl reload nginx
+       
+   ![image](https://user-images.githubusercontent.com/40049149/188878807-444d6054-6130-4593-ad59-29487dd3a19f.png)
 
 
 
