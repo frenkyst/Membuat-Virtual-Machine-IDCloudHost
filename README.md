@@ -141,5 +141,24 @@ __IDCloudHost__ merupakan provider lokal pertama yang menyediakan layanan cloud 
        
    ![image](https://user-images.githubusercontent.com/40049149/188878807-444d6054-6130-4593-ad59-29487dd3a19f.png)
 
+10. Jalankan aplikasi dengan PM2
+
+        pm2 start ecosystem.config.js
+
+    ![Screenshot from 2022-09-07 19-40-38](https://user-images.githubusercontent.com/40049149/188882205-5468444c-d6cd-4ee8-bf15-e7c298ec5713.png)
+
+11. Lihat di browser https://frenky.studentdumbways.my.id/
+
+    ![image](https://user-images.githubusercontent.com/40049149/188881776-8e190627-e563-4202-87bd-36454ad7799f.png)
+
+
+
+
+
+
+
+
+
+
 
 
